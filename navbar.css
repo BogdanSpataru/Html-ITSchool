@@ -1,0 +1,160 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;   
+}
+.navbar , .navlinks{
+    background-color: #141e4c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navbar{
+    position: sticky;
+    z-index: 1;
+    top:0;
+    height: 100px;
+}
+.nav-container{
+    display: flex;
+    width: 100vw;
+    max-width: 1000vw;
+    margin: 5px 16% 0px ;
+}
+.logo{
+    width: auto;
+    height: 60px;
+}
+.nav-links{
+    display: flex;
+    position: relative;
+    left: 50%;
+    justify-content: center;
+    margin-top: 16px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 20px;
+}
+.nav-links a:hover{
+    color: orange;
+}
+.nav-dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #10173b;
+    width: 150px;
+}
+.nav-dropdown:hover .nav-dropdown-menu{
+    display: block;
+}
+.nav-i{
+    font-size: 10px;
+}
+.nav-dropdown-menu li{
+    list-style-type: none;
+}
+.nav-dropdown-menu a{
+    padding: 10px;
+    margin-left: -20px;
+}
+/* Footer */
+.footer{
+    background-color: #141e4c;
+}
+.container-footer{
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    padding: 25px 5px 5px;
+    justify-content: center;
+}
+.container-footer p{
+    font-size: smaller;
+    text-align: center;
+    color: #fff;
+}
+/* Responsive */
+.navresponsive{
+    display: none;
+}
+
+@media screen and (max-width: 768px){ 
+    .navbar{
+        display: none;
+    }
+    .navresponsive{
+        background-color: #141e4c;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        top:0;
+        z-index: 1;
+      
+    }
+    .burger{
+        background-color: #141e4c;
+        border: none;
+        margin-top: 5px;
+    }
+    .dropdown-menu{
+        background-color: #10173b;
+        width: 500px;
+    }
+    .dropdown-item{
+        color: whitesmoke;
+        font-size: 18px;
+    }
+    .container-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .main{
+        height: 98vh;
+    }
+    .main-btn{
+        display: none;
+    }
+    .main-h{
+        font-size: 40px;
+    }
+    .main h5{
+        font-size: 16px;
+    }
+    .main-container{
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .card{
+        width: 100%;
+        margin: 10px;
+    }
+    .card-container{
+        margin: 0px;
+        padding: 0px;
+    }
+    .img-wrapper{
+        width: 90%;
+    }
+    .img-wrapper img{
+        height: auto;
+    }
+    .card-title p{
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .about{
+        padding: 0px;
+    }
+    .parteneri{
+        margin: 10px auto;
+        padding: 0px;
+    }
+    .main-img-apple{
+        margin: 5px 0px;
+    }
+}

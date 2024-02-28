@@ -1,0 +1,71 @@
+.main{
+    background-color: #141e4c;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 50vh;
+}
+.main-h{
+    color: #eaeaea;
+    align-items: center;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.card-h{
+    text-align: center;
+    margin: 35px auto;
+    color: #141e4c;
+    font-weight: 700;
+    font-size: 28px;
+}
+.form-flex{
+    display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 56px;
+ }                                               
+ .info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2.5% auto;
+    border-bottom:2px solid rgb(212, 210, 210);
+ }
+ .ri{
+    font-size: 22px;
+    font-weight: bold;
+ } 
+ .info-p{
+    color:grey ;
+    text-decoration: none;
+ } 
+ .info a:hover{
+    color: black;
+ }
+ .contact-input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 5px;
+    margin: 5px auto;
+ }
+ .contact-textarea{
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 5px;
+ }
+ .contact-btn{
+    background-color:rgb(14, 172, 117) ;
+    color: whitesmoke;
+    padding: 5px 20px;
+    width: 100px;
+    border: 1px solid rgb(14, 172, 117);
+    border-radius: 7px;
+    margin-top: 20px;
+ }
+.bi{
+    margin-bottom: 1px;
+}
+.info p{
+    vertical-align: middle;
+}
